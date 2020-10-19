@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+			body{
+				width: 100%;
+				height: 100%;
+			}
+				
+			
+			#header{
+				width: 100%;
+				height: 150px;
+				float: inline-start;
+				background: url(../images/bibi.png)
+			}
+			#header_tupian{
+				width: 100%;
+				height:70px;
+				float: inline-end;
+				margin-top: 20px ;
+				margin-left: 5px;
+				background-color: url(../images/bilibili1.jpg);
+			}
+			
+			#header_word{
+				width: 50%;
+				height:90px;
+				float: right;
+			}
+			
+			#p{
+				width:100%;
+				height: 40%;
+				text-align: right;
+				letter-spacing:2px;
+			}
+			
+			#header_p_a{
+				text-decoration : none;
+				letter-spacing:2px;
+			}
+			
+			
+			
+			#con{
+				width: auto;
+				height: 50px;
+				margin-left: 100px;
+				}
+			#li{
+				display: block;
+				margin: 0 20px 0 20px;
+				float: left;
+			}
+			.a1{
+				text-decoration: none;
+				color: black;
+				font-size: 27px;
+			}
+			
+			#center{
+				width: 100%;
+				height: 3px;
+				background-color: brown;
+			}
+			
+			#element{
+				text-align:center; 
+				}

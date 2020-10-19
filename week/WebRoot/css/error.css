@@ -1,0 +1,32 @@
+boby{
+    background: url(./images/error.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#errorDiv{
+    width: 100%;
+    height: 100%;
+    margin: 50px aoto;
+    background: url(../images/error2.jpg); 5px center no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#errorHint{
+    padding-left: 600px;
+    padding-right: 100px;
+}
+
+#errorInfo,
+a,
+#leaveTime{
+    color: red;
+    font-weight: bold;
+}
+
+#leaveTime{
+    font-size: 20px;
+    margin: 0px 5px;
+}

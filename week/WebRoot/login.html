@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html>  
+<head>
+	<meta charset="utf-8"/>
+	<link  rel="stylesheet" type = "text/css" href="css/style.css" />
+	<script>
+	function changeImg(){
+    document.getElementById("vcodeImg").src ="creatVerifyImage.do?t=" + Math.random();
+}</script>
+</head>
+
+<body>  
+	<body>
+ 
+			<div class="login-box">
+			<h2>登陆页面</h2>
+			<form action="login.do" method="POST">
+			<form>
+				<div class="login-field">
+					<input  id="userName" type="text" name="userName" required="" />
+					<label>Username</label>
+				</div>
+				<div class="login-field">
+					<input  id="password" type="password" name="password" required=""  />
+					<label >Password</label>
+				</div>
+				<div class="login-field">
+					<input id="vcode" type="vcode" name="vcode" required="" />
+					<label >Vcode</label>
+					<img id="vcodeImg" src="creatVerifyImage.do" onclick="changeImg();" title="点击换一张"/>
+				</div>
+				<p id="p"><input type="checkbox" name="auto"  id="button" />一周免登陆</p>	
+				<button type="submit">Submit</button>
+			</form>
+			</form>
+		</div> 
+	</body>
+</body>  
+</html>
